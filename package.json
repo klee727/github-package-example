@@ -1,0 +1,25 @@
+{
+  "name": "github-package-example",
+  "version": "1.0.0",
+  "description": "just a example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"All tests done\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangzhao28/github-package-example.git"
+  },
+  "keywords": [
+    "example"
+  ],
+  "author": "yangzhao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yangzhao28/github-package-example/issues"
+  },
+  "homepage": "https://github.com/yangzhao28/github-package-example#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
