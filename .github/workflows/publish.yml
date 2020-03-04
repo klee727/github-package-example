@@ -18,7 +18,6 @@ jobs:
         env:
           CI: true
 
-      - name: Publish
-        uses: JS-DevTools/npm-publish@v1
+      - run: npm publish
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
