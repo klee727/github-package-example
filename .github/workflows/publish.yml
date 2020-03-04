@@ -20,4 +20,5 @@ jobs:
 
       - name: Publish
         uses: JS-DevTools/npm-publish@v1
-        token: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
